@@ -38,3 +38,12 @@ a,
     color: $color__primary-light;
   }
 }
+
+button {
+  background-color: $color__accent;
+  &:hover,
+  &:focus {
+    background-color: $color__primary;
+    color: $color__text-inverted;
+  }
+}

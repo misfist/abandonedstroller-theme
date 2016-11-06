@@ -2,15 +2,17 @@ h1,
 h2
 h3,
 .widget-title,
-.entry-title {
+.entry-title,
+.page-title {
   text-transform: uppercase;
+  color: $color__text-primary;
 }
 .entry-title {
   line-height: 1.2;
 }
 
 .site-title {
-  font-family: $font__main;
+  font-family: 'Amarante', $font__main;
   font-weight: normal;
 }
 

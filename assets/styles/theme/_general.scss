@@ -4,6 +4,44 @@ body {
   }
 }
 
+.site-branding  {
+  text-align: center;
+
+  .custom-logo {
+    height: 75px;
+    width: auto;
+  }
+
+  .site-title {
+    text-transform: uppercase;
+  }
+}
+
+@include breakpoint(md) {
+  .site-branding {
+    text-align: left;
+
+    .custom-logo {
+      height: 120px;
+      width: auto;
+    }
+    .site-title {
+      padding-top: .75em;
+    }
+  }
+
+  .menu-item {
+    text-transform: uppercase;
+    border: 1px solid $color__text-inverted;
+    border-radius: 10px;
+  }
+  
+}
+
+.main-navigation-menu li.current-menu-item > a {
+  text-decoration: none;
+}
+
 .entry-header,
 .entry-content {
   padding-right: .75em;
@@ -18,38 +56,33 @@ h3,
   text-transform: uppercase;
 }
 
-div.dark_square {
-  
-  .pp_close {
-
-  }
-  a.pp_close {
-    background: initial;
-    position: inherit;
-    width: auto;
-    color: $color__white;
-    display: block;
-    text-align: center;
-    text-indent: 0;
-  }
-}
-
 .meta-category {
   a[href*="contributed"] {
     .icon {
       height: 18px;
       width: 18px;
       display: inline-block;
-      background: url('assets/images/icon-gift.png') center right no-repeat;
+      background: url('../images/icon-gift.png') center right no-repeat;
       background-size: auto 16px;
     }
-    &:before {
-      background: url('assets/images/icon-gift.png') center right no-repeat;
-      /*background-size: 16px auto;*/
-      padding: 0 16px 0 0;
-      white-space:nowrap;
-      //background: url(../images/icon-gift.png) center right no-repeat;
-      /*content: 'X';*/
-    }
+  }
+}
+
+div.dark_square {
+  
+  a.pp_close {
+    width: 75px;
+    position: inherit;
+    display: block;
+    background: initial;
+    color: $color__white;
+    text-align: center;
+    text-indent: 0;
+    border: 1px solid $color__white;
+    border-radius: 4px;
+    font-size: 85%;
+    font-weight: normal;
+    text-transform: uppercase;
+    float: right;
   }
 }

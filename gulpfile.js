@@ -51,7 +51,6 @@ gulp.task( 'styles', function() {
     } )
     .pipe( plumber( { errorHandler: onError } ) )
     .pipe( sass() )
-    .pipe( gulp.dest( './' ) )
     .pipe(postcss([
         autoprefixer({
             browsers: ['last 2 version']
