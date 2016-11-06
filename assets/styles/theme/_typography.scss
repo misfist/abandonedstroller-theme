@@ -1,0 +1,20 @@
+h1,
+h2
+h3,
+.widget-title,
+.entry-title {
+  text-transform: uppercase;
+}
+.entry-title {
+  line-height: 1.2;
+}
+
+.site-title {
+  font-family: $font__main;
+  font-weight: normal;
+}
+
+.meta-category {
+  text-transform: none;
+  font-weight: normal;
+}

@@ -1,0 +1,161 @@
+/*
+Theme Name:     The Abandoned Stroller Project
+Theme URI:      https://github.com/misfist/abandonedstroller-theme
+Description:    Gridbox child theme.
+Author:         Pea <pea@misfist.com>
+Author URI:     https://misfist.com
+Template:       gridbox
+Text Domain:    abandoned-stroller
+Version:        0.1.0
+*/
+/**
+ * # Variables
+ */
+/**
+ * Import scss partials here.
+ */
+/**
+ * Color variables
+ */
+/* Social Media - http://www.paulund.co.uk/social-media-colours */
+/**
+ * Elements
+ */
+/**
+ * # Common
+ */
+/**
+ * Import scss partials here.
+ */
+/**
+ * Lists
+ */
+/**
+ * Utilities
+ */
+html,
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1,
+h2
+h3,
+.widget-title,
+.entry-title {
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/**
+ * # Structure
+ */
+/**
+ * Import scss partials here.
+ */
+/**
+ * # Elements
+ */
+/**
+ * Import scss partials here.
+ */
+/**
+ * # Pages
+ */
+/**
+ * Import scss partials here.
+ */
+/**
+ * # Plugins
+ */
+/**
+ * Import scss partials here.
+ */
+/**
+ * # Theme
+ */
+/**
+ * Import scss partials here.
+ */
+body.custom-background {
+  background-size: cover; }
+
+.entry-header,
+.entry-content {
+  padding-right: .75em;
+  padding-left: .75em; }
+
+h1,
+h2
+h3,
+.widget-title,
+.entry-title {
+  text-transform: uppercase; }
+
+div.dark_square a.pp_close {
+  background: initial;
+  position: inherit;
+  width: auto;
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-indent: 0; }
+
+.meta-category a[href*="contributed"] .icon {
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  background: url("assets/images/icon-gift.png") center right no-repeat;
+  background-size: auto 16px; }
+
+.meta-category a[href*="contributed"]:before {
+  background: url("assets/images/icon-gift.png") center right no-repeat;
+  /*background-size: 16px auto;*/
+  padding: 0 16px 0 0;
+  white-space: nowrap;
+  /*content: 'X';*/ }
+
+.site {
+  background-color: rgba(114, 116, 119, 0.3); }
+
+.site-header,
+.footer-wrap {
+  background-color: #161716; }
+
+a:link, a:visited,
+.entry-title a:link,
+.entry-title a:visited {
+  color: #801515; }
+
+a:hover, a:focus,
+.entry-title a:hover,
+.entry-title a:focus {
+  color: #280707; }
+
+.site-content {
+  background-color: rgba(255, 255, 255, 0); }
+  .site-content .post {
+    background-color: white;
+    border: 5px solid #161716; }
+    .site-content .post.category-contributed {
+      border: 5px solid #801515; }
+
+.meta-category a,
+.meta-category a:link,
+.meta-category a:visited {
+  color: #a6a7a9; }
+
+h1,
+h2
+h3,
+.widget-title,
+.entry-title {
+  text-transform: uppercase; }
+
+.entry-title {
+  line-height: 1.2; }
+
+.site-title {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal; }
+
+.meta-category {
+  text-transform: none;
+  font-weight: normal; }

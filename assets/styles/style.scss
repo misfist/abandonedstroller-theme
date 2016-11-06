@@ -1,0 +1,45 @@
+/*
+Theme Name:     The Abandoned Stroller Project
+Theme URI:      https://github.com/misfist/abandonedstroller-theme
+Description:    Gridbox child theme.
+Author:         Pea <pea@misfist.com>
+Author URI:     https://misfist.com
+Template:       gridbox
+Text Domain:    abandoned-stroller
+Version:        0.1.0
+*/
+
+/**
+ * # Variables
+ */
+@import 'variables/index';
+
+/**
+ * # Common
+ */
+@import 'common/index';
+
+/**
+ * # Structure
+ */
+@import 'structure/index';
+
+/**
+ * # Elements
+ */
+@import 'elements/index';
+
+/**
+ * # Pages
+ */
+@import 'pages/index';
+
+/**
+ * # Plugins
+ */
+@import 'plugins/index';
+
+/**
+ * # Theme
+ */
+@import 'theme/index';

@@ -1,0 +1,55 @@
+body {
+  &.custom-background {
+    background-size: cover;
+  }
+}
+
+.entry-header,
+.entry-content {
+  padding-right: .75em;
+  padding-left: .75em;
+}
+
+h1,
+h2
+h3,
+.widget-title,
+.entry-title {
+  text-transform: uppercase;
+}
+
+div.dark_square {
+  
+  .pp_close {
+
+  }
+  a.pp_close {
+    background: initial;
+    position: inherit;
+    width: auto;
+    color: $color__white;
+    display: block;
+    text-align: center;
+    text-indent: 0;
+  }
+}
+
+.meta-category {
+  a[href*="contributed"] {
+    .icon {
+      height: 18px;
+      width: 18px;
+      display: inline-block;
+      background: url('assets/images/icon-gift.png') center right no-repeat;
+      background-size: auto 16px;
+    }
+    &:before {
+      background: url('assets/images/icon-gift.png') center right no-repeat;
+      /*background-size: 16px auto;*/
+      padding: 0 16px 0 0;
+      white-space:nowrap;
+      //background: url(../images/icon-gift.png) center right no-repeat;
+      /*content: 'X';*/
+    }
+  }
+}

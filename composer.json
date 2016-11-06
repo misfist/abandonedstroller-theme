@@ -1,0 +1,17 @@
+{
+  "name": "misfist/abandonedstroller-theme",
+  "type": "wordpress-theme",
+  "license": "GPL-3.0",
+  "description": "Child theme for The Abandoned Stroller Project.",
+  "homepage": "https://github.com/misfist/abandonedstroller-theme",
+  "authors": [
+    {
+      "name": "Pea",
+      "email": "pea@misfist.coop",
+      "homepage": "https://github.com/misfist"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ]
+}

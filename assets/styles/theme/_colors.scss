@@ -1,0 +1,40 @@
+.site {
+  background-color: rgba($color__primary,.3);
+}
+
+.site-header,
+.footer-wrap {
+  background-color: $color__black;
+}
+
+a,
+.entry-title a {
+  &:link,
+  &:visited {
+    color: $color__accent;
+  }
+  &:hover,
+  &:focus {
+    color: darken($color__accent,20%);
+  }
+}
+
+.site-content {
+  background-color: rgba($color__white,0);
+  .post {
+    background-color: rgba($color__white,1);
+    border: 5px solid $color__black;
+
+    &.category-contributed {
+      border: 5px solid $color__accent;
+    }
+  }
+}
+
+.meta-category {
+  a,
+  a:link,
+  a:visited {
+    color: $color__primary-light;
+  }
+}
